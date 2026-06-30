@@ -1,0 +1,98 @@
+# .NET Build artifacts
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+# Publish / Deployment output
+publish/
+[Pp]ublish[Pp]rofiles/
+*.pubxml
+*.pubxml.user
+*.publishsettings
+
+# .NET Core / NuGet
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+
+# Secrets & Environment
+.env
+.env.*
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+secrets.json
+*.pfx
+*.key
+
+# User uploads (keep folder, ignore contents)
+wwwroot/uploads/*
+!wwwroot/uploads/.gitkeep
+
+# Local data files
+data/
+*.mdf
+*.ldf
+*.bak
+*.bacpac
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# IDE & Editor
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*.swo
+
+# Test results & coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+nunit-*.xml
+*.VisualState.xml
+CodeCoverage/
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+
+# MSBuild & misc
+*.binlog
+ScaffoldingReadMe.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+~$*
+*~
+
+# Backup / temp
+*.tmp
+*.orig
